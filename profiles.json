@@ -1,0 +1,20 @@
+{
+  "cs2": {
+    "label": "CS2",
+    "process": "cs2.exe",
+    "kill": ["Discord.exe", "chrome.exe", "msedge.exe", "yandex.exe", "Spotify.exe", "steamwebhelper.exe"],
+    "priority": "high"
+  },
+  "dota2": {
+    "label": "Dota 2",
+    "process": "dota2.exe",
+    "kill": ["Discord.exe", "chrome.exe", "msedge.exe", "Telegram.exe", "Spotify.exe"],
+    "priority": "high"
+  },
+  "valorant": {
+    "label": "Valorant",
+    "process": "VALORANT-Win64-Shipping.exe",
+    "kill": ["Discord.exe", "chrome.exe", "msedge.exe", "Spotify.exe", "obs64.exe"],
+    "priority": "high"
+  }
+}
